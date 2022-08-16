@@ -1,0 +1,51 @@
+html{
+    background-color: rgb(34, 1, 1);
+    padding:100px ;
+}
+body{
+    padding: 100px;
+    background-color: rgb(245, 227, 194);
+   
+}
+input:invalid:required {
+    border: 3px solid red;
+}
+input:valid  {
+    border:2px solid black;
+}
+h1 {
+    color: rgb(41, 51, 58);
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    color: rgb(41, 51, 58);
+    font-size: 30px;
+    text-align: center;
+}
+form{
+    background-color: rgb(77, 52, 21);
+    color: rgb(195, 196, 183);
+    
+}
+p{
+    font-size: 20px;
+}
+input{
+    width: 75%;
+    padding: 10px;
+    font-size: 20px;
+}
+select{
+    width: 85%;
+    padding: 10px;
+    font-size: 20px;
+}
+legend{
+    height: 40px;
+}
+button{
+    width: 10%;
+    padding:10px
+    
+}
