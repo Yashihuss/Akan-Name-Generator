@@ -7,28 +7,34 @@
     </head>
     <body>
         <h1>Akan Name Determiner</h1>
-        <form onsubmit="getValue()">
+        <h2> Welcome to the Akan Name Generator</h2>
+        <p>Originating from the Ghanaian culture, the Akan names are a set of names given to their children that corresponds to the particular day of the week they were born. </p>
+        <p>These names, make up many of Ghanaians first names and are what they call “day names”. </p>
+        <p>This well thought out naming system is continuing to attract many people\’s attention, Ghanaians and others alike. </p>
+        <p> Regardless of the reason for the intrigue, this is the perfect place to find out your Akan Name. </p>
+        <form onsubmit="getValue()" >
             <fieldset>
                 <legend>Your Details</legend>
                 <p>
-                    <label for="birthdate">Birthday:</label>
+                    <label for="birthdate"><strong>BIRTHDAY</strong></label>
                     <input type="date" name="birthday" id="birthdate" required> 
                 </p>
                 <p>
-                    <label>Gender: 
-                        <select placeholder="gender" required >
-                            <option >Male</option>
-                            <option>Female</option>
-                        </select>
-                    </label>
+                    <label for="list"><strong>GENDER</strong></label>
+                    <select id="list" >
+                         <option value="Male" >Male</option>
+                        <option value="Female">Female</option>
+                    </select>
                 </p>
                 <p>
-                    <button type="submit" >Submit</button>
+                    <button type="submit">Submit</button>
                 </p>
+                
             </fieldset>
+            <h3 id="result"></h3> 
         </form>
         
-        <h2></h2>
+        
     </body>
 </html>
 
